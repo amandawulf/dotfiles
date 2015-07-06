@@ -113,3 +113,6 @@ function cdl()
 
 set -o vi
 export EDITOR=vim
+
+export PATH=/home/vagrant/.rvm/bin:$PATH
+source ~/.rvm/scripts/rvm
